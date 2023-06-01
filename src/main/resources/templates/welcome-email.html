@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <style>
+         body {
+         background-color: #171717;
+         font-family: "Honeywell Sans", Helvetica, Arial, sans-serif !important;
+         color: #303030;
+         }
+      </style>
+   </head>
+   <body bgcolor="#F7F7F7" style="background-color: rgb(247, 247, 247);">
+      <div style="background-color: #F7F7F7;width:660px;margin: 20px auto">
+         <br>
+         <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+            <tr name="emailBody" bgcolor="#fff" style="background-color:#fff;">
+               
+               <td style="padding:10px;box-shadow: 0-6px 0 #fff, 0 1px 3px rgba(0,0,0, .35);">
+                 
+               <p style="text-align:center;line-height: 19px;">
+               <p style="font-family: Arial; font-size: 20px; color: #0E77B8; text-align: center;line-height: 19px;"><b>CyberSnoopz Technologies</b></p>
+                 <p style="font-family: Arial;text-align: center;">Welcome <b th:text="${data.sendToAddress}"></b>!</h1></p>
+               </p>
+               
+               <p style="font-family: Arial; font-size: 12px;color: #0B0000; text-align: center;line-height: 13px;">
+			Your login was successfull. Have a great journey with us!.
+               </p>
+               <br>
+               </td>
+            </tr>
+            <tr bgcolor="transparent" style="background-color:transparent !important;height:25px;" height="25px;">
+               <td height="25px;"><br></td>
+            </tr>
+            <tr bgcolor="#fff" style="background-color:#fff;">
+               <td style="padding:20px;box-shadow: 0-6px 0 #fff, 0 1px 3px rgba(0,0,0, .35);">
+                  <p style="color:#707070; font-size:14.5px; text-align:center;">Thank You, <br>CyberSnoopz Technologies</p>
+               </td>
+            </tr>
+            
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>
